@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Caracteristica extends Model
 {
-  use hasFactory;  
-  public function categoria()
+    use HasFactory;
+    public function categoria()
     {
         return $this->hasOne(Categorias::class);
     }
@@ -20,4 +20,9 @@ class Caracteristica extends Model
     {
         return $this->hasOne(Presentaciones::class);
     }
+    
+    protected $fillable = [
+        'nombre',
+        'descripcion',
+    ];
 }

@@ -1,4 +1,4 @@
-<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+<nav class="sb-topnav navbar navbar-expand glowfit-navbar">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="{{ route ('panel') }}">GlowFit</a>
             <!-- Sidebar Toggle-->
